@@ -31,8 +31,8 @@ def add_feedback():
             rate = int(input("Enter rating (1 to 5): "))
             
         comm = input("Enter comment: ")
+
         
-        # Writing record as a comma-separated line in the text file
         f.write(reg + "," + name + "," + mess + "," + meal + "," + str(rate) + "," + comm + "\n")
         print("Feedback added successfully!")
         
@@ -168,7 +168,6 @@ def delete_feedback():
         print("No feedback found!")
 
 
-# Main Menu Loop
 while True:
     print("\n==============================")
     print("    MESS FEEDBACK SYSTEM      ")
