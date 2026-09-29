@@ -1,5 +1,4 @@
 # Mess Feedback System
-# Developed using basic Python file handling (No imports used)
 
 def add_feedback():
     f = open("feedback.txt", "a")
